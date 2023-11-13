@@ -109,6 +109,12 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "JetBrains.dotCover.CommandLineTools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2023.2.2, )"
+            },
             "MSTest.TestAdapter": {
               "target": "Package",
               "version": "[2.2.8, )"
@@ -120,6 +126,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
+            },
+            "OpenCover": {
+              "target": "Package",
+              "version": "[4.7.1221, )"
             },
             "coverlet.collector": {
               "target": "Package",

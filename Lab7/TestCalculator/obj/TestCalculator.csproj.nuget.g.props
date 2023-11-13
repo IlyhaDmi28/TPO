@@ -20,6 +20,8 @@
     <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk\17.1.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk\17.1.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgOpenCover Condition=" '$(PkgOpenCover)' == '' ">C:\Users\Илья\.nuget\packages\opencover\4.7.1221</PkgOpenCover>
     <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\Илья\.nuget\packages\newtonsoft.json\9.0.1</PkgNewtonsoft_Json>
+    <PkgJetBrains_dotCover_CommandLineTools Condition=" '$(PkgJetBrains_dotCover_CommandLineTools)' == '' ">C:\Users\Илья\.nuget\packages\jetbrains.dotcover.commandlinetools\2023.2.2</PkgJetBrains_dotCover_CommandLineTools>
   </PropertyGroup>
 </Project>
