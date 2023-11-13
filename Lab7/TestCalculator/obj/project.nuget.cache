@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "TPCPOo3hms6NXureuua8szhzZJUclPcJ1g1bjOSzEdBMldmsNstoZ8ZrZaowGLFj1Z65mF88yVi9zRCRm1pqDA==",
+  "dgSpecHash": "j+omQWzS4A5iRyRg7U6lnTkEoIEPYHv0DKeEqxeeM/N8BgDIrvOUg4g2n+5umrd6DHbjb/C3ko0W0U6zKWkF0w==",
   "success": true,
   "projectFilePath": "D:\\Labs\\ТПО\\Lab7\\TestCalculator\\TestCalculator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Илья\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\Илья\\.nuget\\packages\\jetbrains.dotcover.commandlinetools\\2023.2.2\\jetbrains.dotcover.commandlinetools.2023.2.2.nupkg.sha512",
     "C:\\Users\\Илья\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
     "C:\\Users\\Илья\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Илья\\.nuget\\packages\\microsoft.net.test.sdk\\17.1.0\\microsoft.net.test.sdk.17.1.0.nupkg.sha512",
@@ -18,6 +19,7 @@
     "C:\\Users\\Илья\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Илья\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\Илья\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
+    "C:\\Users\\Илья\\.nuget\\packages\\opencover\\4.7.1221\\opencover.4.7.1221.nupkg.sha512",
     "C:\\Users\\Илья\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Илья\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Илья\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
