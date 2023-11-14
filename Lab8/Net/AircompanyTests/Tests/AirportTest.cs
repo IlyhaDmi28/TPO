@@ -32,7 +32,7 @@ namespace AircompanyTests.Tests
         public void AirportIsHaveMilitaryPlanesTest()
         {
             Airport airport = new Airport(planes);
-            Assert.IsNotNull(airport.GetTransportMilitaryPlanes().Count);
+            Assert.IsNotNull(airport.GetTransportMilitaryPlanes());
         }
 
         [Test]
