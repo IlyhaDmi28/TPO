@@ -14,7 +14,6 @@ namespace Aircompany.Planes
 
         public override bool Equals(object obj)
         {
-
             return obj is PassengerPlane plane && base.Equals(obj) && passengersCapacity == plane.passengersCapacity;
         }
 

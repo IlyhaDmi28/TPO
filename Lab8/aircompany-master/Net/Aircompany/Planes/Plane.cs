@@ -37,7 +37,7 @@ namespace Aircompany.Planes
             return maxLoadCapacity;
         }
 
-        public override string ToString()
+        public override string ToString()///
         {
             return "Plane{" +
                 "model='" + model + '\'' +
