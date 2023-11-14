@@ -38,6 +38,6 @@ namespace Aircompany.Planes
             return base.ToString().Replace("}",
                     ", type=" + type +
                     '}');
-        }        
+        }
     }
 }

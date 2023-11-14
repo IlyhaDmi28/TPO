@@ -66,7 +66,7 @@ namespace Aircompany.Planes
             hashCode = hashCode * -1521134295 + maxLoadCapacity.GetHashCode();
 
             return hashCode;
-        }        
+        }
 
     }
 }

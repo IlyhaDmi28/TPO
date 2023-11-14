@@ -27,7 +27,6 @@ namespace AircompanyTests.Tests
            new MilitaryPlane("C-130 Hercules", 650, 5000, 110000, MilitaryType.Transport)
    };
 
-        private PassengerPlane planeWithMaxPassengerCapacity = new PassengerPlane("Boeing-747", 980, 16100, 70500, 242);
 
         [Test]
         public void AirportIsHaveMilitaryPlanesTest()
