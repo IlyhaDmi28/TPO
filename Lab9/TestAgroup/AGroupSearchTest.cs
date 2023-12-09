@@ -21,15 +21,13 @@ namespace TestAgroup
         [TestMethod]
         public void SearchTest()
         {
-            string searchText = "MSI Pulse"; // Замените текст на нужный
+            string searchText = "MSI Pulse";
 
             IWebElement searchInput = driver.FindElement(By.XPath("//input[@class='text-input']"));
             searchInput.SendKeys(searchText);
 
-            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-            IWebElement searchResultItem = wait.Until((d) => (IWebElement)d.FindElement(By.XPath("//div[@class='search-menu__name']")));
-
-            var searchResults = driver.FindElements(By.XPath("//div[@class='search-menu__name']"));
+            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(3));
+            var searchResults = wait.Until((d) => d.FindElements(By.XPath("//div[@class='search-menu__name']")));
 
             bool isCorrectFind = true;
             foreach (var resuslt in searchResults)
