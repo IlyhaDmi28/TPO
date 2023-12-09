@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Labs\\ТПО\\TestAgroup\\TestAgroup.csproj": {}
+    "D:\\Labs\\TPO\\Lab9\\TestAgroup\\TestAgroup.csproj": {}
   },
   "projects": {
-    "D:\\Labs\\ТПО\\TestAgroup\\TestAgroup.csproj": {
+    "D:\\Labs\\TPO\\Lab9\\TestAgroup\\TestAgroup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Labs\\ТПО\\TestAgroup\\TestAgroup.csproj",
+        "projectUniqueName": "D:\\Labs\\TPO\\Lab9\\TestAgroup\\TestAgroup.csproj",
         "projectName": "TestAgroup",
-        "projectPath": "D:\\Labs\\ТПО\\TestAgroup\\TestAgroup.csproj",
+        "projectPath": "D:\\Labs\\TPO\\Lab9\\TestAgroup\\TestAgroup.csproj",
         "packagesPath": "C:\\Users\\Илья\\.nuget\\packages\\",
-        "outputPath": "D:\\Labs\\ТПО\\TestAgroup\\obj\\",
+        "outputPath": "D:\\Labs\\TPO\\Lab9\\TestAgroup\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
